@@ -93,7 +93,7 @@ Additionally, we provide support for external speaker embeddings along with disc
 To run it, use the following command:
 
 ```bash
-python train.py hparams/train_spk.yaml --data_folder=/path/to/LibriTTS
+python train_spk.py hparams/train_spk.yaml --data_folder=/path/to/LibriTTS
 ```
 
 Training typically takes around 15 minutes per epoch when using an NVIDIA A100 40G.
